@@ -1,16 +1,5 @@
 DocumentCard.style.ts
 
-import {
-  IButtonStyles,
-  IDocumentCardStyles,
-  IDocumentCardTitleStyles,
-  IStackStyles,
-  IStackTokens,
-  mergeStyles,
-} from '@fluentui/react';
-import { Colors } from '../../utils/colors';
-import { StaticConstants } from '../../utils/constants';
-
 export const getDocumentCardStyles = (
   cardWidth: number,
   cardHeight: number,
