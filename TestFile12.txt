@@ -1,0 +1,492 @@
+DocumentCard.style.ts
+
+import {
+  IButtonStyles,
+  IDocumentCardStyles,
+  IDocumentCardTitleStyles,
+  IStackStyles,
+  IStackTokens,
+  mergeStyles,
+} from '@fluentui/react';
+import { Colors } from '../../utils/colors';
+import { StaticConstants } from '../../utils/constants';
+
+export const getDocumentCardStyles = (
+  cardWidth: number,
+  cardHeight: number,
+  showCardsInMultipleRows: boolean,
+): IDocumentCardStyles => {
+  return {
+    root: {
+      height: cardHeight,
+      width: cardWidth,
+      maxWidth: cardWidth,
+      minWidth: cardWidth,
+      backgroundColor: Colors.white,
+      boxShadow: `0px 1px 3px ${Colors.grey80}`,
+      border: 'none',
+      display: showCardsInMultipleRows ? 'inline-block' : 'block',
+      borderRadius: 8,
+      overflow: 'hidden',
+      marginRight: StaticConstants.documentCardsMargin,
+      marginBottom: showCardsInMultipleRows ? 16 : undefined,
+    },
+  };
+};
+
+export const documentCardTokens: IStackTokens = {
+  maxWidth: '100%',
+};
+
+export const getDocumentCardTitleStyles = (
+  _isValueMap: boolean,
+  _isLogoAvailable: boolean,
+): IDocumentCardTitleStyles => {
+  return {
+    root: {
+      padding: '15px 15px 0 15px',
+      width: 'auto',
+      display: '-webkit-box',
+      '-webkit-line-clamp': '2',
+      '-webkit-box-orient': 'vertical',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      height: 'auto',
+      fontSize: 13,
+      color: Colors.primaryBlack
+    },
+  };
+};
+
+export const documentCardLogoWrapperStyles = (background?: string): string => {
+  return mergeStyles({
+    height: '55%',
+    background: background ? `url(${background})` : Colors.primaryGreen,
+    backgroundSize: background ? 'cover' : '',
+  });
+};
+export const documentIconStyles = mergeStyles({
+  display:'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  transform: 'scale(0.8)'
+})
+export const documentCardLogoStyles = mergeStyles({
+  width: '23px',
+  height: '23px',
+  borderRadius: '50%',
+  backgroundColor : Colors.springGreen,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  transform: 'scale(1.5) translate(8px, 40px)',
+  filter: 'invert(0)',
+});
+
+export const documentCardChildrenStyles: string = mergeStyles({
+  alignItems: 'center',
+  display: 'initial',
+});
+
+export const getDocumentCardWrapperStyles = (isLeftAlign: boolean): IStackStyles => {
+  return {
+    root: {
+      display: isLeftAlign ? 'block' : 'flex',
+    },
+  };
+};
+
+export const iconStyles = {
+  root: {
+    height: 40,
+  },
+};
+
+export const moreIconStyles: IButtonStyles = {
+  root: {
+    position: 'absolute',
+    right: 2,
+    zIndex: 5,
+    width: 8,
+    color: Colors.black,
+    marginTop: 80,
+    borderRadius: 8,
+    padding: 0,
+  },
+  menuIcon: {
+    display: 'none',
+  },
+  iconHovered: {
+    color: Colors.black,
+  },
+};
+
+export const menuIconStyles = {
+  color: Colors.secondaryGreen,
+};
+
+export const cardsStyles = mergeStyles({
+  width: '100%',
+  position: 'absolute',
+});
+
+
+
+DocumentCard.tsx
+
+import React from 'react';
+import { DocumentCard, DocumentCardTitle, FontIcon, IconButton, Stack } from '@fluentui/react';
+import {
+  cardsStyles,
+  documentCardChildrenStyles,
+  documentCardLogoStyles,
+  documentCardLogoWrapperStyles,
+  documentCardTokens,
+  documentIconStyles,
+  getDocumentCardStyles,
+  getDocumentCardTitleStyles,
+  getDocumentCardWrapperStyles,
+  menuIconStyles,
+  moreIconStyles,
+} from './DocumentCards.styles';
+import { IDocumentCard, IDocumentCardsProps } from './DocumentCards.types';
+import { Icons } from '../../utils/icons';
+import { SymbolStyle, TextIcons } from '../TextIcons/TextIcons';
+import { localizationService } from '../../utils/localization';
+import { PublishStatus } from '../../pages/ValueMapCanvasPage/ValueMapCanvasPage.types';
+import { StaticConstants } from '../../utils/constants';
+import { GlobalStatus } from '../../pages/AdminPage/AdminPage.types';
+
+export const DocumentCards: React.FunctionComponent<IDocumentCardsProps> = (
+  props: IDocumentCardsProps,
+): JSX.Element => {
+  /**
+   * Function to render the title
+   * @param status - PublishStatus
+   * @returns - {string}
+   */
+  const renderTitle = (
+    status: PublishStatus | undefined,
+    globalStatus: GlobalStatus | undefined,
+  ): string => {
+    return props.showSystemTreeTitle
+      ? globalStatus === GlobalStatus.Success
+        ? localizationService('promoted')
+        : ''
+      : status === PublishStatus.Completed
+      ? localizationService('publishedCards')
+      : status === PublishStatus.InProgress
+      ? ''
+      : localizationService('draftCards');
+  };
+
+  return (
+    <Stack
+      tokens={documentCardTokens}
+      horizontal={!props.isVerticalAlign}
+      horizontalAlign={!props.isLeftAlign ? 'center' : undefined}
+      styles={getDocumentCardWrapperStyles(!!props.isLeftAlign)}>
+      {props.documentCards.map((documentCard: IDocumentCard) => {
+        return (
+          <DocumentCard
+            id={documentCard.id}
+            key={documentCard.id}
+            styles={getDocumentCardStyles(
+              props.documentCardWidth,
+              props.documentCardHeight,
+              !!props.showCardsInMultipleRows,
+            )}
+            onClick={() => {
+              props.onDocumentCardClick?.(
+                documentCard.id,
+                documentCard.title,
+                documentCard.industryId,
+              );
+            }}>
+            {!props.hideTreeType && (
+              <div className={cardsStyles}>
+                <TextIcons
+                  style={
+                    documentCard.status === PublishStatus.Completed
+                      ? SymbolStyle.GradientFill
+                      : SymbolStyle.BlackFill
+                  }
+                  symbol={renderTitle(documentCard.status, documentCard.globalStatus)}
+                  title={renderTitle(documentCard.status, documentCard.globalStatus)}
+                  fontSize={9}
+                />
+              </div>
+            )}
+            {!!props.showActions &&
+              !(
+                documentCard.status === PublishStatus.Completed ||
+                documentCard.status === PublishStatus.InProgress
+              ) && (
+                <IconButton
+                  iconProps={{ iconName: Icons.moreVertical }}
+                  styles={moreIconStyles}
+                  menuProps={{
+                    items: [
+                      {
+                        key: StaticConstants.edit,
+                        text: localizationService('edit'),
+                        iconProps: {
+                          iconName: Icons.edit,
+                          style: menuIconStyles,
+                        },
+                        onClick: () =>
+                          props.onEditClick?.(documentCard.id, documentCard.industryId ?? ''),
+                      },
+                      {
+                        key: StaticConstants.delete,
+                        text: localizationService('deleteButton'),
+                        iconProps: {
+                          iconName: Icons.delete,
+                          style: menuIconStyles,
+                        },
+                        onClick: () =>
+                          props.onDeleteClick?.(documentCard.id, documentCard.industryId ?? ''),
+                      },
+                    ],
+                  }}
+                />
+              )}
+            {documentCard.logo && (
+              <div
+                className={`${documentCardLogoWrapperStyles(
+                  documentCard.industryBackground,
+                )} lazy-image`}>   
+                  {documentCard.logo !== Icons.DefaultIndustry && (
+                    <div className={documentCardLogoStyles}>
+                      <FontIcon iconName={documentCard.logo} className={documentIconStyles} />
+                    </div>
+                  )}  
+                </div>              
+            )} 
+            <Stack horizontal className={documentCardChildrenStyles}>
+              <DocumentCardTitle
+                title={documentCard.title}
+                showAsSecondaryTitle
+                styles={getDocumentCardTitleStyles(!!props.isValueMap, !!documentCard.logo)}
+              />
+            </Stack>
+          </DocumentCard>
+        );
+      })}
+    </Stack>
+  );
+};
+
+TextIcon.module.css
+
+.textIconCommon {
+  display: inline-block;
+  font-size: 10px;
+  border-radius : 0px 50px 50px 0px;
+  padding: 0 7px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.greyFill {
+  background-color: #d2d0ce;
+  color: #000000;
+}
+
+.blackFill {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.gradientFill {
+  background: transparent linear-gradient(117deg, #B1C0F5 0%, #A4F6DA 100%) 0% 0% no-repeat padding-box;
+  color: #000000;
+}
+
+
+--LandingPageCard.styles.ts
+
+import { mergeStyles } from '@fluentui/react';
+import { Colors } from '../../../utils/colors';
+
+export const cardContainer = mergeStyles({
+  paddingTop: '1%',
+  paddingBottom: '1%',
+});
+
+export const cardContainerText = mergeStyles({
+  fontWeight: 'bold',
+  color: Colors.primaryBlack,
+  marginTop: 10,
+  marginBottom: 10,
+});
+
+--LandingPageCards.tsx
+
+import React from 'react';
+import { DocumentCards } from '../../../components/DocumentCards/DocumentCards';
+import { localizationService } from '../../../utils/localization';
+import { cardContainer, cardContainerText } from './LandingPageCards.styles';
+import { ILandingPageCardsProps } from './LandingPageCards.types';
+import { history } from '../../../utils/history';
+import { IDocumentCard } from '../../../components/DocumentCards/DocumentCards.types';
+import { Icons, getIndustryBackgroundImage, industryIcons } from '../../../utils/icons';
+import { StaticConstants } from '../../../utils/constants';
+import { IValueMaps } from '../LandingPage.types';
+import { PublishStatus } from '../../ValueMapCanvasPage/ValueMapCanvasPage.types';
+
+export const LandingPageCards = (props: ILandingPageCardsProps): JSX.Element => {
+  /**
+   * Function provides list of popular layouts
+   * @returns - Popular layouts
+   */
+  const getDocumentCards = (): IDocumentCard[] => {
+    const cards: IDocumentCard[] = [];
+    const sortedMaps = sortMaps(filterMaps(props.valueTrees));
+    for (const valueMap of sortedMaps) {
+      cards.push({
+        id: valueMap.id,
+        title: valueMap.name.length ? valueMap.name : valueMap.id,
+        nodeBelongsTo: valueMap.nodeBelongsTo,
+        logo:
+          valueMap.parentIndustry !== ''
+            ? industryIcons(valueMap.parentIndustry)
+            : Icons.DefaultIndustry,
+        industryBackground:
+          valueMap.parentIndustry !== ''
+            ? getIndustryBackgroundImage(valueMap.parentIndustry)
+            : getIndustryBackgroundImage('Default'),
+      } as IDocumentCard);
+    }
+    let layoutCount =
+      (window.innerWidth - StaticConstants.landingPageContentSpacing - 17) /
+      (StaticConstants.popularLayoutWidth + StaticConstants.documentCardsMargin);
+    if (layoutCount > 6) {
+      layoutCount = 6;
+    }
+    return cards.slice(0, Math.floor(layoutCount));
+  };
+
+  /**
+   * Sorts Valuemaps based on modeified by date
+   * @param {IValueMaps[]} cards All value trees
+   * @returns Sorted list of value trees
+   */
+  const sortMaps = (cards: IValueMaps[]): IValueMaps[] => {
+    cards = cards.sort((cardFirst, cardSecond) => {
+      return new Date(cardFirst.modifiedOn).getTime() > new Date(cardSecond.modifiedOn).getTime()
+        ? 1
+        : -1;
+    });
+    return cards;
+  };
+  /**
+   * This filters out all published maps
+   * @param {IValueMaps[]} cards All value trees
+   */
+  const filterMaps = (cards: IValueMaps[]): IValueMaps[] => {
+    cards = cards.filter(card => {
+      return !(
+        card.publishedStatus === PublishStatus.Completed ||
+        card.publishedStatus === PublishStatus.InProgress
+      );
+    });
+    return cards;
+  };
+  /**
+   * Function performs on click operation when a layout is clicked
+   * @param layoutId - Id of the layout
+   */
+  const onDocumentCardClick = (cardId: string): void => {
+    const currentIndustryId = props.valueTrees.find(
+      valueTree => valueTree.id == cardId,
+    )?.industryId;
+    history.push({
+      pathname: `/valuemap/${cardId}`,
+      search: `?industryId=${currentIndustryId}`,
+    });
+    props.onValueTreeSelected();
+  };
+
+  return (
+    <div className={cardContainer}>
+      <h3 className={cardContainerText}>{localizationService('landingPageContinue')}</h3>
+      <div>
+        <DocumentCards
+          documentCards={getDocumentCards()}
+          onDocumentCardClick={onDocumentCardClick}
+          documentCardWidth={StaticConstants.popularLayoutWidth}
+          documentCardHeight={StaticConstants.popularLayoutHeight}
+          isTextOverflow
+          isLeftAlign
+          isVerticalAlign
+          showCardsInMultipleRows
+          hideTreeType
+        />
+      </div>
+    </div>
+  );
+};
+
+--NavigationCard.tsx
+
+import { DocumentCard, FontIcon, Stack } from '@fluentui/react';
+import React from 'react';
+import { CustomActionButton } from '../../../components/Common/CustomActionButton/CustomActionButton';
+import { history } from '../../../utils/history';
+import { Icons } from '../../../utils/icons';
+import {
+  fontIconStyles,
+  iconWrapper,
+  linkContainer,
+  linkStyles,
+  navCardIconStyles,
+  navCardLinkStyles,
+  navigationCardDescriptionStyles,
+  navigationCardStyles,
+} from './NavigationCard.styles';
+import { INavigationCardData } from './NavigationCard.types';
+
+export const NavigationCard = (props: { cardData: INavigationCardData }): JSX.Element => {
+  const onLinkClick = (link: string) => {
+    history.push(link);
+  };
+  return (
+    <DocumentCard styles={navigationCardStyles}>
+      <div className={iconWrapper}>
+        <FontIcon iconName={props.cardData.image} className={navCardIconStyles} />
+      </div>
+      <h3>{props.cardData.title}</h3>
+      <p className={navigationCardDescriptionStyles} title={props.cardData.description}>
+        {props.cardData.description}
+      </p>
+      <div className={linkContainer}>
+        {props.cardData.links.map((link, index) => {
+          return (
+            <Stack
+              horizontal
+              key={link.link}
+              className={linkStyles(index % 3 === 0)}
+              onClick={() => {
+                onLinkClick(link.link);
+              }}>
+              <CustomActionButton text={link.text} styles={navCardLinkStyles} />
+              <FontIcon
+                title={link.text}
+                iconName={Icons.chevronRight}
+                className={fontIconStyles}
+              />
+            </Stack>
+            
+          );
+        })}
+      </div>
+    </DocumentCard>
+  );
+};
+
+
+constants
+
+  popularLayoutWidth: 180,
+
