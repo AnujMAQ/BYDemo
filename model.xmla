@@ -7,8 +7,8 @@
   "id": "9cc75739-5249-479a-a4ab-bad6f1a180b9",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-02-23T09:17:01.723+05:30",
-  "lastUpdate": "2023-03-02T14:13:59.033+05:30",
-  "lastSchemaUpdate": "2023-02-23T09:17:01.723+05:30",
+  "lastUpdate": "2023-03-02T14:37:40.163+05:30",
+  "lastSchemaUpdate": "2023-03-02T14:37:39.983+05:30",
   "lastProcessed": "2023-02-23T09:18:16.243+05:30",
   "model": {
     "culture": "en-IN",
@@ -25,7 +25,7 @@
         "name": "Devansh",
         "lineageTag": "7f081d95-1860-4ca0-9ded-30761ab7e045",
         "modifiedTime": "2023-02-23T03:48:11.237",
-        "structureModifiedTime": "2023-02-23T04:40:51.873",
+        "structureModifiedTime": "2023-03-02T09:07:40",
         "columns": [
           {
             "type": "rowNumber",
@@ -123,8 +123,15 @@
             }
           },
           {
-            "name": "Column4",
-            "dataType": "string"
+            "name": "UpdatedColumnName",
+            "dataType": "int64",
+            "modifiedTime": "2023-03-02T09:07:40",
+            "structureModifiedTime": "2023-03-02T09:07:40",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-02T09:07:40",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -523,7 +530,7 @@
             "DynamicImprovement": "HighConfidence"
           },
           "contentType": "json",
-          "modifiedTime": "2023-02-23T03:47:01.983"
+          "modifiedTime": "2023-03-02T09:07:40.017"
         }
       }
     ],
