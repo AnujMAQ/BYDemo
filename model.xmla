@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T14:29:56.257+05:30",
+  "lastUpdate": "2023-03-03T15:10:13.617+05:30",
   "lastSchemaUpdate": "2023-03-03T09:29:14.27+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -25,7 +25,7 @@
         "name": "HumanResources vEmployeeDepartment",
         "lineageTag": "7a6cc245-09f6-4676-8b27-723ac8262a1e",
         "modifiedTime": "2023-03-03T04:23:20.207",
-        "structureModifiedTime": "2023-03-03T04:23:20.083",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -481,14 +481,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.117"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources vEmployeeDepartment-b9472bbc-f8ea-480a-8ed8-01db82c32beb",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.983",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.983",
             "source": {
               "type": "m",
@@ -1210,7 +1222,7 @@
         "name": "HumanResources vEmployee",
         "lineageTag": "bc4df6ff-b8e6-4c5c-9f96-94f938781a97",
         "modifiedTime": "2023-03-03T04:23:20.073",
-        "structureModifiedTime": "2023-03-03T04:23:20.073",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -1986,14 +1998,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.117"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources vEmployee-299a376a-00e1-4522-9f49-740d64df8d08",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.253",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.253",
             "source": {
               "type": "m",
@@ -2012,7 +2036,7 @@
         "name": "HumanResources vEmployeeDepartmentHistory",
         "lineageTag": "cd4efaeb-3bae-43f9-9795-3f4fd6b234b0",
         "modifiedTime": "2023-03-03T04:23:20.073",
-        "structureModifiedTime": "2023-03-03T04:23:20.073",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -2527,14 +2551,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.117"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources vEmployeeDepartmentHistory-b23b218f-f0d7-4633-a57f-00456c5e9ec7",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.22",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.22",
             "source": {
               "type": "m",
@@ -5643,7 +5679,7 @@
         "name": "Person vAdditionalContactInfo",
         "lineageTag": "7c7240f5-ff88-44d0-8046-ddc5a832f8e7",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -6388,14 +6424,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.12"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person vAdditionalContactInfo-472a10b2-7a28-45fb-9b19-c8a87e2139b6",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.893",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.893",
             "source": {
               "type": "m",
@@ -7992,7 +8040,7 @@
         "name": "Person vStateProvinceCountryRegion",
         "lineageTag": "52bac996-4142-451a-9ce3-e75a15854423",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -8307,14 +8355,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.12"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person vStateProvinceCountryRegion-fce7e18b-f99b-4a4c-bd22-dd9e335656e4",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.217",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.217",
             "source": {
               "type": "m",
@@ -8333,7 +8393,7 @@
         "name": "Production vProductAndDescription",
         "lineageTag": "d520272a-e84d-4dea-bec9-71f21e61155a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -8562,14 +8622,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.12"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production vProductAndDescription-bb502cd3-1c05-4961-853a-7d65d0d40f95",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.863",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.863",
             "source": {
               "type": "m",
@@ -8588,7 +8660,7 @@
         "name": "Production vProductModelCatalogDescription",
         "lineageTag": "0c620e75-361f-4263-9286-d103466d0165",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -9669,14 +9741,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.12"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production vProductModelCatalogDescription-a7d0ab77-a939-4cef-ad12-f644b241b0d4",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.153",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.153",
             "source": {
               "type": "m",
@@ -10044,7 +10128,7 @@
         "name": "Production vProductModelInstructions",
         "lineageTag": "c2c8e4c5-18b1-403a-bae3-d6fe7e26bb80",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -10539,14 +10623,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.12"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production vProductModelInstructions-a0fca3cc-1f9b-4890-8fc9-487c56862ce9",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.353",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.353",
             "source": {
               "type": "m",
@@ -10914,7 +11010,7 @@
         "name": "Purchasing vVendorWithAddresses",
         "lineageTag": "9c758743-3a23-4ae6-ac0f-80473727477b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -11311,14 +11407,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.12"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Purchasing vVendorWithAddresses-1dd091a0-9e34-4c13-ae65-4c3cfef14884",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.147",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.147",
             "source": {
               "type": "m",
@@ -11337,7 +11445,7 @@
         "name": "Purchasing vVendorWithContacts",
         "lineageTag": "9fb74470-54b7-42d8-8c18-cdd63cc10100",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -11861,14 +11969,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.12"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Purchasing vVendorWithContacts-9bb6cbcf-07ed-4c28-8f60-870271d21f10",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.483",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.483",
             "source": {
               "type": "m",
@@ -11887,7 +12007,7 @@
         "name": "Sales vIndividualCustomer",
         "lineageTag": "24eab7c6-06c6-4bc4-86c3-ee199d7765d6",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -12663,14 +12783,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales vIndividualCustomer-69729ba0-073d-4398-a5c5-5d3bc58cc5da",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.917",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.917",
             "source": {
               "type": "m",
@@ -12689,7 +12821,7 @@
         "name": "Sales vPersonDemographics",
         "lineageTag": "df0b6efc-dd61-4f33-86ed-df5f255afe0f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -13283,14 +13415,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales vPersonDemographics-935c1c77-3640-4b96-9717-9a68879ecc1e",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:32.97",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:32.97",
             "source": {
               "type": "m",
@@ -14007,7 +14151,7 @@
         "name": "Sales vSalesPerson",
         "lineageTag": "f8aef0f7-06ee-4233-9d42-3615bef8e1a5",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -14954,14 +15098,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales vSalesPerson-877fa645-ad4b-43fd-a4e5-4183142ca865",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.1",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.1",
             "source": {
               "type": "m",
@@ -14980,7 +15136,7 @@
         "name": "Sales vSalesPersonSalesByFiscalYears",
         "lineageTag": "27f8ded0-7741-4f11-aaf9-d86e242ce9a0",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -15296,14 +15452,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales vSalesPersonSalesByFiscalYears-bec5a9e7-3e15-494a-8520-e9415828a344",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.987",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.987",
             "source": {
               "type": "m",
@@ -15322,7 +15490,7 @@
         "name": "Sales vStoreWithAddresses",
         "lineageTag": "c19cc5d7-77e2-44f2-93fc-9a48f139911b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -15719,14 +15887,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales vStoreWithAddresses-33de39cb-0be4-4aa5-bb3c-2f2e822f5dee",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.517",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.517",
             "source": {
               "type": "m",
@@ -15745,7 +15925,7 @@
         "name": "Sales vStoreWithContacts",
         "lineageTag": "32e6d759-fb44-44a7-aa1f-4dc827326922",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -16269,14 +16449,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales vStoreWithContacts-ac4667ab-a088-47d3-91a3-f2fd44fa2250",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.443",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.443",
             "source": {
               "type": "m",
@@ -16295,7 +16487,7 @@
         "name": "Sales vStoreWithDemographics",
         "lineageTag": "74f26e0a-2c5f-4e16-89cd-a539a3fda508",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -16823,14 +17015,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales vStoreWithDemographics-d7c9f389-948e-446a-8245-7f226ce9158a",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.377",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.377",
             "source": {
               "type": "m",
@@ -16849,7 +17053,7 @@
         "name": "AWBuildVersion",
         "lineageTag": "04df4dc5-bef7-460f-97f6-b0e7832c4405",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -17060,14 +17264,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "AWBuildVersion-4ab4f714-e5a3-4235-b159-117e2f221ec9",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.447",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.447",
             "source": {
               "type": "m",
@@ -17784,7 +18000,7 @@
         "name": "DatabaseLog",
         "lineageTag": "9d235493-af67-44d8-a380-2950d9aae029",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -18151,14 +18367,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.123"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "DatabaseLog-7a78bd20-8647-4eaf-9045-decba6fdb119",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.403",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.403",
             "source": {
               "type": "m",
@@ -18526,7 +18754,7 @@
         "name": "ErrorLog",
         "lineageTag": "bd408c61-af56-4972-b706-b6558e6d3fde",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -18939,14 +19167,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "ErrorLog-e2d4e4cf-101d-47f4-84e3-ee97a5ed74cf",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.423",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.423",
             "source": {
               "type": "m",
@@ -19314,7 +19554,7 @@
         "name": "HumanResources Department",
         "lineageTag": "c620b025-abed-46f7-b199-daffa453f99e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -19513,14 +19753,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources Department-b3d792cf-3aa9-4455-85db-4242deb1cf31",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.997",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.997",
             "source": {
               "type": "m",
@@ -19888,7 +20140,7 @@
         "name": "HumanResources Employee",
         "lineageTag": "86bcc939-34c7-4ade-b8e1-5890f36e1a6c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -20630,14 +20882,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources Employee-88606fd9-d50e-4d38-928e-cd7326aa1f55",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.603",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.603",
             "source": {
               "type": "m",
@@ -21703,7 +21967,7 @@
         "name": "HumanResources EmployeeDepartmentHistory",
         "lineageTag": "cd1e4517-f97a-4aeb-b5c9-680906e8fddc",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -22022,14 +22286,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources EmployeeDepartmentHistory-4c226970-761a-4315-b025-182bdf84eefd",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.313",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.313",
             "source": {
               "type": "m",
@@ -23095,7 +23371,7 @@
         "name": "HumanResources EmployeePayHistory",
         "lineageTag": "63fe548f-d7f5-4881-aeec-1585fa3ead6a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -23350,14 +23626,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources EmployeePayHistory-8dc0ba6b-0fa3-4ae4-96bd-afa9a255ebb8",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.55",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.55",
             "source": {
               "type": "m",
@@ -24649,7 +24937,7 @@
         "name": "HumanResources Shift",
         "lineageTag": "3605885f-6803-4046-bdbd-6e0e69225e60",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -24902,14 +25190,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "HumanResources Shift-c6ffa187-2772-48bf-8fca-1612390b6777",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.817",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.817",
             "source": {
               "type": "m",
@@ -25277,7 +25577,7 @@
         "name": "Person Address",
         "lineageTag": "8ae99522-c2b8-413f-b17b-8e760c0e08fd",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T08:59:54.977",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -25767,14 +26067,26 @@
               "modifiedTime": "2023-03-03T08:59:54.977",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person Address-92046002-6add-4ab9-b168-c160d352decf",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.537",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.537",
             "source": {
               "type": "m",
@@ -26142,7 +26454,7 @@
         "name": "Person AddressType",
         "lineageTag": "6815e509-d7f4-4a45-b0d3-1d0f45635c3c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -26341,14 +26653,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person AddressType-32119453-387d-4c54-a1fc-839860c2571f",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.607",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.607",
             "source": {
               "type": "m",
@@ -26716,7 +27040,7 @@
         "name": "Person BusinessEntity",
         "lineageTag": "88f5edb8-c3c0-4e36-810b-bf9ccb4976bb",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -26873,14 +27197,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person BusinessEntity-629f34fa-2691-4db4-bf9b-4170defb487a",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.6",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.6",
             "source": {
               "type": "m",
@@ -27248,7 +27584,7 @@
         "name": "Person BusinessEntityAddress",
         "lineageTag": "ac5954a9-a648-47a0-b2cd-aebfe370220e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -27491,14 +27827,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person BusinessEntityAddress-c466c937-1db4-4eb3-8006-47d81f75bb23",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.003",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.003",
             "source": {
               "type": "m",
@@ -27866,7 +28214,7 @@
         "name": "Person BusinessEntityContact",
         "lineageTag": "4593911f-e7ca-4813-80e6-75860e55020c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -28109,14 +28457,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person BusinessEntityContact-e62f7428-fc6f-454e-992a-ae3bfff12409",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.733",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.733",
             "source": {
               "type": "m",
@@ -28484,7 +28844,7 @@
         "name": "Person ContactType",
         "lineageTag": "c7ed62a9-f994-454b-bb10-eed425958611",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -28641,14 +29001,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person ContactType-b60020c7-eaec-4aef-af1d-c7346145bbf6",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.787",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.787",
             "source": {
               "type": "m",
@@ -29016,7 +29388,7 @@
         "name": "Person CountryRegion",
         "lineageTag": "4cb98d08-c123-406e-8347-716f2b1805e2",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -29172,14 +29544,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person CountryRegion-e219410f-bb94-4582-82ba-2003d60bcbab",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.78",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.78",
             "source": {
               "type": "m",
@@ -29547,7 +29931,7 @@
         "name": "Person EmailAddress",
         "lineageTag": "10874b0a-0888-4591-84ba-d4134a74f513",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -29789,14 +30173,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person EmailAddress-aecb3b5f-22b9-4d50-a347-6284e8f340c7",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.67",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.67",
             "source": {
               "type": "m",
@@ -30164,7 +30560,7 @@
         "name": "Person Person",
         "lineageTag": "478ad7ce-2f82-44d3-8d72-96db8bf0aa6f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T08:58:02.507",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -30875,6 +31271,18 @@
               "modifiedTime": "2023-03-03T08:58:02.507",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -31250,7 +31658,7 @@
         "name": "Person PersonPhone",
         "lineageTag": "b1f23613-5d8b-4986-9890-36b73d70532b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -31450,14 +31858,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person PersonPhone-b26e2950-de49-45ce-bf8c-0927e93a28c0",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.44",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.44",
             "source": {
               "type": "m",
@@ -31825,7 +32245,7 @@
         "name": "Person PhoneNumberType",
         "lineageTag": "7e7c8507-b82d-4470-8f67-f1d9a756c968",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -31982,14 +32402,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person PhoneNumberType-3ba13cf8-5ebd-40c2-8903-85cf0ecc7ff6",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.48",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.48",
             "source": {
               "type": "m",
@@ -32357,7 +32789,7 @@
         "name": "Person Password",
         "lineageTag": "3c743139-5a4e-4e04-b80a-48cfd0406147",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -32598,14 +33030,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.13"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person Password-d668414a-5032-40e5-ac75-977a3f9f946c",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.483",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.483",
             "source": {
               "type": "m",
@@ -32973,7 +33417,7 @@
         "name": "Person StateProvince",
         "lineageTag": "363c3f56-9838-4613-a8c8-78bbaf7cc5b1",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -33342,14 +33786,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.133"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person StateProvince-1253a914-843c-4f75-8eff-96c75097b93e",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.937",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.937",
             "source": {
               "type": "m",
@@ -33717,7 +34173,7 @@
         "name": "Production Culture",
         "lineageTag": "e56116e0-231c-47d7-b6db-c4793468a4b3",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -33873,14 +34329,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.133"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production Culture-2e553809-b4df-45be-b5e6-7489ca21acfe",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.403",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.403",
             "source": {
               "type": "m",
@@ -34248,7 +34716,7 @@
         "name": "Production BillOfMaterials",
         "lineageTag": "5fb8b13a-3fb3-4b3f-8d82-9696e375c704",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -34684,14 +35152,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.133"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production BillOfMaterials-45a1bb34-6a69-40f3-80a6-7af40ad1930f",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.57",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.57",
             "source": {
               "type": "m",
@@ -35757,7 +36237,7 @@
         "name": "Production Document",
         "lineageTag": "bff3b050-921a-4ced-b885-18cabbd4cb85",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -36338,14 +36818,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.133"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production Document-ddc1b875-3238-44df-98a2-4cb384700888",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.697",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.697",
             "source": {
               "type": "m",
@@ -36713,7 +37205,7 @@
         "name": "Production Illustration",
         "lineageTag": "d1cac7de-9d37-4cf1-957f-d56d577dde06",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -36870,14 +37362,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.133"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production Illustration-14a41856-555a-4fda-b38f-5bec55b8e572",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.1",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.1",
             "source": {
               "type": "m",
@@ -37245,7 +37749,7 @@
         "name": "Production Location",
         "lineageTag": "08081bca-daff-4ced-ae17-fb2f2a7a6444",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -37487,14 +37991,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.133"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production Location-9b4131b5-5e75-4b9c-896c-3e4abdaad122",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.853",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.853",
             "source": {
               "type": "m",
@@ -37862,7 +38378,7 @@
         "name": "Production ProductCategory",
         "lineageTag": "e29e92bc-9584-4980-afc3-1705f8ac6d57",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -38061,14 +38577,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.133"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductCategory-6d67ee5e-e6f2-424f-8b45-0051b201d29c",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.35",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.35",
             "source": {
               "type": "m",
@@ -38436,7 +38964,7 @@
         "name": "Production Product",
         "lineageTag": "a55a382f-9afa-4d32-bff6-dab5824fccd2",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:05.71",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -39562,14 +40090,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.137"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production Product-c16b0735-c117-4b06-8145-738d54a57f9a",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.513",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.513",
             "source": {
               "type": "m",
@@ -40994,7 +41534,7 @@
         "name": "Production ProductCostHistory",
         "lineageTag": "6b8c4065-212e-42a7-bb8f-1c968963784c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -41260,14 +41800,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.137"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductCostHistory-abacae6a-bea3-4562-ad32-88986fa4b3b3",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.21",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.21",
             "source": {
               "type": "m",
@@ -42333,7 +42885,7 @@
         "name": "Production ProductDescription",
         "lineageTag": "21074c6d-9cf8-437e-a48a-538ed88bcedb",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -42532,14 +43084,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.137"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductDescription-9634d236-6e0c-430c-bad8-cfce82d0a136",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.817",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.817",
             "source": {
               "type": "m",
@@ -42907,7 +43471,7 @@
         "name": "Production ProductDocument",
         "lineageTag": "80fb4f1a-bb62-4ebf-9dbc-3af069b74666",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -43064,14 +43628,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.137"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductDocument-b8bcead2-3366-4a92-bf22-fe16d75f84f3",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.65",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.65",
             "source": {
               "type": "m",
@@ -43439,7 +44015,7 @@
         "name": "Production ProductInventory",
         "lineageTag": "3b9450b3-9311-444a-aaaa-d63016a20d41",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -43767,14 +44343,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.14"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductInventory-02a544c1-3b03-4e99-ae2b-150dd987b66c",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.887",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.887",
             "source": {
               "type": "m",
@@ -44142,7 +44730,7 @@
         "name": "Production ProductListPriceHistory",
         "lineageTag": "9333ab42-cd01-4f95-9367-7b8e541672fc",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -44408,14 +44996,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.14"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductListPriceHistory-c30cee96-1e0d-4147-bcfa-83b59a43b14d",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.073",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.073",
             "source": {
               "type": "m",
@@ -45481,7 +46081,7 @@
         "name": "Production ProductModel",
         "lineageTag": "52e05bd9-5b44-4060-8bef-b2ac129cd8a5",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -45764,14 +46364,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.14"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductModel-423b75a9-92bc-471d-9438-20d56099ab01",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.673",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.673",
             "source": {
               "type": "m",
@@ -46139,7 +46751,7 @@
         "name": "Production ProductModelIllustration",
         "lineageTag": "9c558f45-5b6c-4378-889e-852143944c07",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -46297,14 +46909,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.14"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductModelIllustration-51d0eee0-6a18-4c68-ac6b-8c438885be8c",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.713",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.713",
             "source": {
               "type": "m",
@@ -46672,7 +47296,7 @@
         "name": "Production ProductModelProductDescriptionCulture",
         "lineageTag": "08365d09-b51a-4b41-bf92-e50234a95578",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -46872,14 +47496,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.143"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductModelProductDescriptionCulture-061de063-cae1-4fa2-aa74-03aafa1b026f",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.133",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.133",
             "source": {
               "type": "m",
@@ -47247,7 +47883,7 @@
         "name": "Production ProductPhoto",
         "lineageTag": "a15eeff0-19fc-496e-8ec1-51cd310204fd",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -47446,14 +48082,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.143"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductPhoto-f55aadd6-504c-48b6-a518-b21f17320be5",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.027",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.027",
             "source": {
               "type": "m",
@@ -47821,7 +48469,7 @@
         "name": "Production ProductProductPhoto",
         "lineageTag": "de722afe-06e0-4721-bef4-5211ad947d36",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -48022,14 +48670,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.143"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductProductPhoto-8cbd933f-a984-49b7-a0a3-49c6844bbbd4",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.537",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.537",
             "source": {
               "type": "m",
@@ -48397,7 +49057,7 @@
         "name": "Production ProductReview",
         "lineageTag": "dce6fc34-cc7b-44c3-b2d7-3464835a1bec",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -48778,14 +49438,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.143"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductReview-c7974def-e3ac-46f2-b7d4-0180edf74388",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.477",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.477",
             "source": {
               "type": "m",
@@ -49502,7 +50174,7 @@
         "name": "Production ProductSubcategory",
         "lineageTag": "0189d3bd-dac3-4d9d-8d0b-ca38c7ab8fea",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -49744,14 +50416,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.143"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ProductSubcategory-2a3930d3-ab07-40cb-a882-41f22a71548d",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.77",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.77",
             "source": {
               "type": "m",
@@ -50119,7 +50803,7 @@
         "name": "Production ScrapReason",
         "lineageTag": "71221165-8bee-486d-b955-c8c2748fe233",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -50276,14 +50960,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.147"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production ScrapReason-f2e093b1-a207-47e9-a28e-0fe83c42088c",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.87",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.87",
             "source": {
               "type": "m",
@@ -50651,7 +51347,7 @@
         "name": "Production TransactionHistory",
         "lineageTag": "b7bc8199-87ea-45c6-9913-c2ff854b9ab6",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -51077,14 +51773,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.147"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production TransactionHistory-d066cbfd-b1cd-4577-90ff-7f31a72a3869",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.473",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.473",
             "source": {
               "type": "m",
@@ -51801,7 +52509,7 @@
         "name": "Production TransactionHistoryArchive",
         "lineageTag": "0054d23a-772b-4a57-b26c-5e95bd3f5f4b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -52227,14 +52935,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.147"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production TransactionHistoryArchive-42ae5eca-c0b5-4a2b-a2ff-b8fba41fae56",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.55",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.55",
             "source": {
               "type": "m",
@@ -52951,7 +53671,7 @@
         "name": "Production UnitMeasure",
         "lineageTag": "193f3a69-c0bf-4445-947d-44eaf306360d",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -53107,14 +53827,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.147"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production UnitMeasure-edcad3f0-49a2-41f2-afd1-1f539ee6b7f4",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.063",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.063",
             "source": {
               "type": "m",
@@ -53482,7 +54214,7 @@
         "name": "Production WorkOrder",
         "lineageTag": "aef707b0-b4fe-4428-ad19-713352ba462a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -53974,14 +54706,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.15"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production WorkOrder-19b2a354-20c9-4f98-bb85-62843b26115b",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.71",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.71",
             "source": {
               "type": "m",
@@ -55396,7 +56140,7 @@
         "name": "Production WorkOrderRouting",
         "lineageTag": "0bd77da5-de19-492d-99bf-8506a12ea806",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -55984,14 +56728,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.15"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Production WorkOrderRouting-1021bcd3-8b95-4a44-9ef9-3ea079fe96b6",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.153",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.153",
             "source": {
               "type": "m",
@@ -57755,7 +58511,7 @@
         "name": "Purchasing ProductVendor",
         "lineageTag": "d0572bf9-ea89-462a-b07f-7bcee40d8389",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -58267,14 +59023,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.153"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Purchasing ProductVendor-0deb6ee3-3f6d-462c-b459-191e39829c8c",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.917",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.917",
             "source": {
               "type": "m",
@@ -58991,7 +59759,7 @@
         "name": "Purchasing PurchaseOrderDetail",
         "lineageTag": "15b6609c-f1d9-48ab-ad0b-c3c85b48d405",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -59501,14 +60269,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.153"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Purchasing PurchaseOrderDetail-9ebdfda3-6f67-4981-890f-22ba178aab56",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.723",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.723",
             "source": {
               "type": "m",
@@ -60225,7 +61005,7 @@
         "name": "Purchasing ShipMethod",
         "lineageTag": "ca50c96b-38e9-4a91-9e97-919d8516dcae",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -60510,14 +61290,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.153"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Purchasing ShipMethod-e0b61a93-807c-468e-a76f-5ca91778caf3",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.653",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.653",
             "source": {
               "type": "m",
@@ -60885,7 +61677,7 @@
         "name": "Purchasing PurchaseOrderHeader",
         "lineageTag": "5abdcb7d-4336-4868-a210-ebb41f4720d6",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -61495,14 +62287,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.157"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Purchasing PurchaseOrderHeader-008f76c9-bfbd-40c7-bd0f-82da92e9a4ce",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.807",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.807",
             "source": {
               "type": "m",
@@ -62568,7 +63372,7 @@
         "name": "Purchasing Vendor",
         "lineageTag": "3e208ba6-2307-4102-b9ee-fea2a4e47665",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -62938,14 +63742,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.157"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Purchasing Vendor-1cdfbcd3-7525-4e43-a47c-24e9b87a1dce",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.11",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.11",
             "source": {
               "type": "m",
@@ -63313,7 +64129,7 @@
         "name": "Sales CountryRegionCurrency",
         "lineageTag": "857598ce-72bd-4ea3-ad36-c6441d958262",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -63469,14 +64285,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.157"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales CountryRegionCurrency-d1540895-6ac4-442e-b1f1-1c265d228ea9",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.253",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.253",
             "source": {
               "type": "m",
@@ -63844,7 +64672,7 @@
         "name": "Sales CreditCard",
         "lineageTag": "178d3aa3-7b64-4bb4-9aa6-97bcfac93f33",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -64129,14 +64957,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.157"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales CreditCard-bbb4d364-b80b-4bdb-85ff-7c2fb9e426ab",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.5",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.5",
             "source": {
               "type": "m",
@@ -64504,7 +65344,7 @@
         "name": "Sales Currency",
         "lineageTag": "b935af10-fc23-44a4-a233-7b444d2eb36c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -64660,14 +65500,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.16"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales Currency-095b1886-31b7-4a4d-935d-ee26764770d0",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.55",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.55",
             "source": {
               "type": "m",
@@ -65035,7 +65887,7 @@
         "name": "Sales CurrencyRate",
         "lineageTag": "c4575874-25fe-445c-b924-88398eb88297",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -65374,14 +66226,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.16"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales CurrencyRate-4e3b3cdc-e927-434d-997b-3d8cb1194269",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.273",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.273",
             "source": {
               "type": "m",
@@ -66098,7 +66962,7 @@
         "name": "Sales Customer",
         "lineageTag": "6a5e3f60-15bb-4f66-b953-5e58ab3478cd",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -66426,14 +67290,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.16"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales Customer-1fddf767-ff19-43cc-8327-67fb8c8392b3",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:27.547",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:27.547",
             "source": {
               "type": "m",
@@ -66801,7 +67677,7 @@
         "name": "Sales PersonCreditCard",
         "lineageTag": "90cb43bc-0e38-44ad-bcf4-5b64835da3da",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -66959,14 +67835,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.16"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales PersonCreditCard-6596000c-1897-449f-9bc3-da2a1ef35311",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.307",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.307",
             "source": {
               "type": "m",
@@ -67339,7 +68227,7 @@
         "name": "Sales SalesOrderDetail",
         "lineageTag": "83dcbbf1-f786-4bcf-b917-73e838220ea1",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -67838,14 +68726,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.163"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesOrderDetail-4a656fc2-aa32-4552-8834-43e2c273dff4",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.407",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.407",
             "source": {
               "type": "m",
@@ -68218,7 +69118,7 @@
         "name": "Sales SalesOrderHeader",
         "lineageTag": "f88a58de-19d7-4b21-a9de-0463b662344b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -69392,14 +70292,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.167"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesOrderHeader-9d32eddb-f199-4ed3-87e7-9c22418d5c37",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.143",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.143",
             "source": {
               "type": "m",
@@ -70819,7 +71731,7 @@
         "name": "Sales SalesOrderHeaderSalesReason",
         "lineageTag": "16c5f55a-584d-49d2-86d9-da3fab56ecaf",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -70977,14 +71889,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.167"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesOrderHeaderSalesReason-de3b55a0-fafe-4171-9511-8ae1ecbe5825",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.173",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.173",
             "source": {
               "type": "m",
@@ -71357,7 +72281,7 @@
         "name": "Sales SalesPerson",
         "lineageTag": "9750cfa2-4f43-4144-bedc-258f5607c6eb",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -71772,14 +72696,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.167"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesPerson-da97394b-7030-4f8c-bc3e-71feefa59f28",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.607",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.607",
             "source": {
               "type": "m",
@@ -72152,7 +73088,7 @@
         "name": "Sales SalesPersonQuotaHistory",
         "lineageTag": "190d4f7b-76cc-4869-9bc2-cc65ff2be38e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -72406,14 +73342,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.167"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesPersonQuotaHistory-0eedc149-12a2-4d01-abd9-bf201f7e9dae",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.773",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:29.773",
             "source": {
               "type": "m",
@@ -73135,7 +74083,7 @@
         "name": "Sales SalesReason",
         "lineageTag": "a4b3de51-2965-4f5a-a956-c5bb7ab79271",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -73334,14 +74282,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.167"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesReason-f0739b1c-31cd-4105-b57f-6be50692b820",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.613",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.613",
             "source": {
               "type": "m",
@@ -73714,7 +74674,7 @@
         "name": "Sales SalesTaxRate",
         "lineageTag": "97b722d6-92a9-42ca-afd4-b2f9d0f98f2a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -74042,14 +75002,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.17"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesTaxRate-35140020-ad66-4876-8724-ecebe3bd8994",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.167",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.167",
             "source": {
               "type": "m",
@@ -74422,7 +75394,7 @@
         "name": "Sales SalesTerritoryHistory",
         "lineageTag": "cd5320b0-9199-4524-8fe9-2f0d117ebbbc",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -74730,14 +75702,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.17"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesTerritoryHistory-eac43727-ddcf-4ccb-9b5d-7f8475127ab8",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.777",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.777",
             "source": {
               "type": "m",
@@ -75808,7 +76792,7 @@
         "name": "Sales SalesTerritory",
         "lineageTag": "a088df3a-f8fa-4962-b884-4c52463b3244",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -76263,14 +77247,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.173"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SalesTerritory-617d82f6-d99a-4f98-8e7f-738407e078ce",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.49",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.49",
             "source": {
               "type": "m",
@@ -76643,7 +77639,7 @@
         "name": "Sales ShoppingCartItem",
         "lineageTag": "1f9aacc5-2ad8-4e55-87c3-57e0c7c24d0f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -76940,14 +77936,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.173"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales ShoppingCartItem-fbbafa94-1bc7-4000-b593-5989d9465a57",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:26.8",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:26.8",
             "source": {
               "type": "m",
@@ -77669,7 +78677,7 @@
         "name": "Sales SpecialOffer",
         "lineageTag": "5ea7098e-e66c-4c0f-bd5e-b68871173560",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -78189,14 +79197,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.177"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SpecialOffer-c823e13b-1ea4-40f9-988b-576763cfa0d6",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:28.717",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:28.717",
             "source": {
               "type": "m",
@@ -79267,7 +80287,7 @@
         "name": "Sales SpecialOfferProduct",
         "lineageTag": "be2922d1-e44f-4054-aca4-d1a7dd842e2e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -79467,14 +80487,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.177"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales SpecialOfferProduct-7216ae01-ebfc-4065-a264-d675bc2c1c58",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.573",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.573",
             "source": {
               "type": "m",
@@ -79847,7 +80879,7 @@
         "name": "Sales Store",
         "lineageTag": "2b909077-3ff7-43f4-86eb-4992664578c0",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:12.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -80131,14 +81163,26 @@
                 "modifiedTime": "2023-03-03T04:23:20.177"
               }
             ]
+          },
+          {
+            "name": "TestColumn12",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:40:12.177",
+            "structureModifiedTime": "2023-03-03T09:40:12.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Sales Store-dbfde0ab-4605-47c5-8f43-67d6ee02f185",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:30.043",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T09:40:13.367",
             "refreshedTime": "2023-03-03T04:23:30.043",
             "source": {
               "type": "m",
