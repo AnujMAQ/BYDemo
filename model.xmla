@@ -25711,6 +25711,12 @@
             "dataType": "unknown",
             "isDataTypeInferred": true,
             "formatString": "string"
+          },
+          {
+            "name": "Area",
+            "dataType": "unknown",
+            "isDataTypeInferred": true,
+            "formatString": "string"
           }
         ],
         "partitions": [
