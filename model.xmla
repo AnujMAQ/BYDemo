@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T14:18:27.84+05:30",
+  "lastUpdate": "2023-03-03T14:23:04.88+05:30",
   "lastSchemaUpdate": "2023-03-03T09:29:14.27+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -30084,7 +30084,7 @@
         "name": "Person Person",
         "lineageTag": "478ad7ce-2f82-44d3-8d72-96db8bf0aa6f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T08:48:26.667",
+        "structureModifiedTime": "2023-03-03T08:54:18.417",
         "columns": [
           {
             "type": "rowNumber",
@@ -30677,54 +30677,112 @@
             }
           },
           {
-            "name": "TestColumn1",
-            "dataType": "string",
-            "formatString": "General"
-          },
-          {
             "name": "TestColumn2",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn3",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn4",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn5",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn6",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn7",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn8",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn9",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           },
           {
             "name": "TestColumn10",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:53:03.77",
+            "structureModifiedTime": "2023-03-03T08:53:03.77",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:53:03.77",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
