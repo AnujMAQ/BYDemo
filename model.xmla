@@ -25693,6 +25693,12 @@
             "dataType": "unknown",
             "isDataTypeInferred": true,
             "formatString": "string"
+          },
+          {
+            "name": "Country",
+            "dataType": "unknown",
+            "isDataTypeInferred": true,
+            "formatString": "string"
           }
         ],
         "partitions": [
