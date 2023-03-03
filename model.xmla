@@ -30084,7 +30084,7 @@
         "name": "Person Person",
         "lineageTag": "478ad7ce-2f82-44d3-8d72-96db8bf0aa6f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T05:38:21.93",
         "columns": [
           {
             "type": "rowNumber",
@@ -30667,15 +30667,22 @@
           {
             "name": "FullName",
             "dataType": "string",
-            "formatString": "General"
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T05:38:21.93",
+            "structureModifiedTime": "2023-03-03T05:38:21.93",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T05:38:21.93",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
             "name": "Person Person-94a2b081-8529-4b9d-8342-bd1eeb31ae92",
             "mode": "import",
-            "state": "ready",
-            "modifiedTime": "2023-03-03T04:23:29.957",
+            "state": "incomplete",
+            "modifiedTime": "2023-03-03T05:38:24.163",
             "refreshedTime": "2023-03-03T04:23:29.957",
             "source": {
               "type": "m",
