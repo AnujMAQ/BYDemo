@@ -43926,7 +43926,7 @@
         ],
         "measures": [
           {
-            "name": "NumOfProducts",
+            "name": "NumOfProductsIDs",
             "expression": "DISTINCTCOUNT ('Production Product'[ProductID])",
             "formatString": "string",
             "dataType": "int64",
