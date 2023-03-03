@@ -25687,42 +25687,6 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
-          },
-          {
-            "name": "State",
-            "dataType": "unknown",
-            "isDataTypeInferred": true,
-            "formatString": "string"
-          },
-          {
-            "name": "Country",
-            "dataType": "unknown",
-            "isDataTypeInferred": true,
-            "formatString": "string"
-          },
-          {
-            "name": "District",
-            "dataType": "unknown",
-            "isDataTypeInferred": true,
-            "formatString": "string"
-          },
-          {
-            "name": "Continent",
-            "dataType": "unknown",
-            "isDataTypeInferred": true,
-            "formatString": "string"
-          },
-          {
-            "name": "Area",
-            "dataType": "unknown",
-            "isDataTypeInferred": true,
-            "formatString": "string"
-          },
-          {
-            "name": "Colony",
-            "dataType": "unknown",
-            "isDataTypeInferred": true,
-            "formatString": "string"
           }
         ],
         "partitions": [
@@ -30711,6 +30675,56 @@
               "modifiedTime": "2023-03-03T05:38:21.93",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn1",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn2",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn3",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn4",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn5",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn6",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn7",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn8",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn9",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn10",
+            "dataType": "string",
+            "formatString": "General"
           }
         ],
         "partitions": [
