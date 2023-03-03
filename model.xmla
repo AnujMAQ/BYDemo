@@ -30084,7 +30084,7 @@
         "name": "Person Person",
         "lineageTag": "478ad7ce-2f82-44d3-8d72-96db8bf0aa6f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T08:44:49.36",
+        "structureModifiedTime": "2023-03-03T08:44:58.193",
         "columns": [
           {
             "type": "rowNumber",
@@ -30721,6 +30721,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T08:44:49.36",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn5",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T08:44:58.193",
+            "structureModifiedTime": "2023-03-03T08:44:58.193",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:44:58.193",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
