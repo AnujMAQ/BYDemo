@@ -30675,18 +30675,6 @@
               "modifiedTime": "2023-03-03T05:38:21.93",
               "refreshedTime": "1699-12-31T00:00:00"
             }
-          },
-          {
-            "name": "TestColumn10",
-            "dataType": "string",
-            "formatString": "General",
-            "modifiedTime": "2023-03-03T06:56:51.67",
-            "structureModifiedTime": "2023-03-03T06:56:51.67",
-            "refreshedTime": "1699-12-31T00:00:00",
-            "attributeHierarchy": {
-              "modifiedTime": "2023-03-03T06:56:51.687",
-              "refreshedTime": "1699-12-31T00:00:00"
-            }
           }
         ],
         "partitions": [
