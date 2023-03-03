@@ -43945,7 +43945,7 @@
             "name": "NumberOfProducts",
             "expression": "DISTINCTCOUNT ('Production Product'[ProductID])",
             "dataType": "int64",
-            "modifiedTime": "2023-03-03T10:31:44.507",
+            "modifiedTime": "2023-03-03T10:38:33.04",
             "structureModifiedTime": "2023-03-03T10:31:43.553"
           }
         ],
