@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T14:28:03.623+05:30",
+  "lastUpdate": "2023-03-03T14:29:56.257+05:30",
   "lastSchemaUpdate": "2023-03-03T09:29:14.27+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -38436,7 +38436,7 @@
         "name": "Production Product",
         "lineageTag": "a55a382f-9afa-4d32-bff6-dab5824fccd2",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T04:23:20.077",
+        "structureModifiedTime": "2023-03-03T09:40:05.71",
         "columns": [
           {
             "type": "rowNumber",
@@ -39575,6 +39575,16 @@
               "type": "m",
               "expression": "let\n    Source = Sql.Databases(\"MAQ23319\\SQLEXPRESS\"),\n    AdventureWorks2012 = Source{[Name=\"AdventureWorks2012\"]}[Data],\n    Production_Product = AdventureWorks2012{[Schema=\"Production\",Item=\"Product\"]}[Data]\nin\n    Production_Product"
             }
+          }
+        ],
+        "measures": [
+          {
+            "name": "NumOfProducts",
+            "expression": "DISTINCTCOUNT ('Production Product'[ProductID])",
+            "formatString": "string",
+            "dataType": "int64",
+            "modifiedTime": "2023-03-03T09:40:06.57",
+            "structureModifiedTime": "2023-03-03T09:40:05.71"
           }
         ],
         "annotations": [
