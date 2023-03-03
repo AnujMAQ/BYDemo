@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T14:23:04.88+05:30",
+  "lastUpdate": "2023-03-03T14:25:38.847+05:30",
   "lastSchemaUpdate": "2023-03-03T09:29:14.27+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -30675,6 +30675,56 @@
               "modifiedTime": "2023-03-03T05:38:21.93",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn1",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn2",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn3",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn4",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn5",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn6",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn7",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn8",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn9",
+            "dataType": "string",
+            "formatString": "General"
+          },
+          {
+            "name": "TestColumn10",
+            "dataType": "string",
+            "formatString": "General"
           }
         ],
         "partitions": [
