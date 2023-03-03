@@ -25699,6 +25699,12 @@
             "dataType": "unknown",
             "isDataTypeInferred": true,
             "formatString": "string"
+          },
+          {
+            "name": "District",
+            "dataType": "unknown",
+            "isDataTypeInferred": true,
+            "formatString": "string"
           }
         ],
         "partitions": [
