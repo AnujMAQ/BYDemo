@@ -30677,18 +30677,6 @@
             }
           },
           {
-            "name": "TestColumn2",
-            "dataType": "string",
-            "formatString": "General",
-            "modifiedTime": "2023-03-03T06:55:26.287",
-            "structureModifiedTime": "2023-03-03T06:55:26.287",
-            "refreshedTime": "1699-12-31T00:00:00",
-            "attributeHierarchy": {
-              "modifiedTime": "2023-03-03T06:55:26.287",
-              "refreshedTime": "1699-12-31T00:00:00"
-            }
-          },
-          {
             "name": "TestColumn3",
             "dataType": "string",
             "formatString": "General",
