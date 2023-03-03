@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T15:10:13.617+05:30",
+  "lastUpdate": "2023-03-03T15:15:47.047+05:30",
   "lastSchemaUpdate": "2023-03-03T09:29:14.27+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -25,7 +25,7 @@
         "name": "HumanResources vEmployeeDepartment",
         "lineageTag": "7a6cc245-09f6-4676-8b27-723ac8262a1e",
         "modifiedTime": "2023-03-03T04:23:20.207",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -491,6 +491,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -1222,7 +1234,7 @@
         "name": "HumanResources vEmployee",
         "lineageTag": "bc4df6ff-b8e6-4c5c-9f96-94f938781a97",
         "modifiedTime": "2023-03-03T04:23:20.073",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -2010,6 +2022,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -2036,7 +2060,7 @@
         "name": "HumanResources vEmployeeDepartmentHistory",
         "lineageTag": "cd4efaeb-3bae-43f9-9795-3f4fd6b234b0",
         "modifiedTime": "2023-03-03T04:23:20.073",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -2561,6 +2585,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -5679,7 +5715,7 @@
         "name": "Person vAdditionalContactInfo",
         "lineageTag": "7c7240f5-ff88-44d0-8046-ddc5a832f8e7",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -6434,6 +6470,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -8040,7 +8088,7 @@
         "name": "Person vStateProvinceCountryRegion",
         "lineageTag": "52bac996-4142-451a-9ce3-e75a15854423",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -8367,6 +8415,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -8393,7 +8453,7 @@
         "name": "Production vProductAndDescription",
         "lineageTag": "d520272a-e84d-4dea-bec9-71f21e61155a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -8634,6 +8694,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -8660,7 +8732,7 @@
         "name": "Production vProductModelCatalogDescription",
         "lineageTag": "0c620e75-361f-4263-9286-d103466d0165",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -9753,6 +9825,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -10128,7 +10212,7 @@
         "name": "Production vProductModelInstructions",
         "lineageTag": "c2c8e4c5-18b1-403a-bae3-d6fe7e26bb80",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -10635,6 +10719,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -11010,7 +11106,7 @@
         "name": "Purchasing vVendorWithAddresses",
         "lineageTag": "9c758743-3a23-4ae6-ac0f-80473727477b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -11419,6 +11515,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -11445,7 +11553,7 @@
         "name": "Purchasing vVendorWithContacts",
         "lineageTag": "9fb74470-54b7-42d8-8c18-cdd63cc10100",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -11981,6 +12089,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -12007,7 +12127,7 @@
         "name": "Sales vIndividualCustomer",
         "lineageTag": "24eab7c6-06c6-4bc4-86c3-ee199d7765d6",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -12795,6 +12915,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -12821,7 +12953,7 @@
         "name": "Sales vPersonDemographics",
         "lineageTag": "df0b6efc-dd61-4f33-86ed-df5f255afe0f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -13425,6 +13557,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -14151,7 +14295,7 @@
         "name": "Sales vSalesPerson",
         "lineageTag": "f8aef0f7-06ee-4233-9d42-3615bef8e1a5",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -15110,6 +15254,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -15136,7 +15292,7 @@
         "name": "Sales vSalesPersonSalesByFiscalYears",
         "lineageTag": "27f8ded0-7741-4f11-aaf9-d86e242ce9a0",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -15464,6 +15620,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -15490,7 +15658,7 @@
         "name": "Sales vStoreWithAddresses",
         "lineageTag": "c19cc5d7-77e2-44f2-93fc-9a48f139911b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -15899,6 +16067,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -15925,7 +16105,7 @@
         "name": "Sales vStoreWithContacts",
         "lineageTag": "32e6d759-fb44-44a7-aa1f-4dc827326922",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -16461,6 +16641,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -16487,7 +16679,7 @@
         "name": "Sales vStoreWithDemographics",
         "lineageTag": "74f26e0a-2c5f-4e16-89cd-a539a3fda508",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -17027,6 +17219,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -17053,7 +17257,7 @@
         "name": "AWBuildVersion",
         "lineageTag": "04df4dc5-bef7-460f-97f6-b0e7832c4405",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -17274,6 +17478,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -18000,7 +18216,7 @@
         "name": "DatabaseLog",
         "lineageTag": "9d235493-af67-44d8-a380-2950d9aae029",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -18379,6 +18595,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -18754,7 +18982,7 @@
         "name": "ErrorLog",
         "lineageTag": "bd408c61-af56-4972-b706-b6558e6d3fde",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -19179,6 +19407,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -19554,7 +19794,7 @@
         "name": "HumanResources Department",
         "lineageTag": "c620b025-abed-46f7-b199-daffa453f99e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -19763,6 +20003,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -20140,7 +20392,7 @@
         "name": "HumanResources Employee",
         "lineageTag": "86bcc939-34c7-4ade-b8e1-5890f36e1a6c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -20892,6 +21144,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -21967,7 +22231,7 @@
         "name": "HumanResources EmployeeDepartmentHistory",
         "lineageTag": "cd1e4517-f97a-4aeb-b5c9-680906e8fddc",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -22296,6 +22560,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -23371,7 +23647,7 @@
         "name": "HumanResources EmployeePayHistory",
         "lineageTag": "63fe548f-d7f5-4881-aeec-1585fa3ead6a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -23636,6 +23912,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -24937,7 +25225,7 @@
         "name": "HumanResources Shift",
         "lineageTag": "3605885f-6803-4046-bdbd-6e0e69225e60",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -25200,6 +25488,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -25577,7 +25877,7 @@
         "name": "Person Address",
         "lineageTag": "8ae99522-c2b8-413f-b17b-8e760c0e08fd",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -26079,6 +26379,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -26454,7 +26766,7 @@
         "name": "Person AddressType",
         "lineageTag": "6815e509-d7f4-4a45-b0d3-1d0f45635c3c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -26663,6 +26975,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -27040,7 +27364,7 @@
         "name": "Person BusinessEntity",
         "lineageTag": "88f5edb8-c3c0-4e36-810b-bf9ccb4976bb",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -27207,6 +27531,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -27584,7 +27920,7 @@
         "name": "Person BusinessEntityAddress",
         "lineageTag": "ac5954a9-a648-47a0-b2cd-aebfe370220e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -27837,6 +28173,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -28214,7 +28562,7 @@
         "name": "Person BusinessEntityContact",
         "lineageTag": "4593911f-e7ca-4813-80e6-75860e55020c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -28467,6 +28815,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -28844,7 +29204,7 @@
         "name": "Person ContactType",
         "lineageTag": "c7ed62a9-f994-454b-bb10-eed425958611",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -29011,6 +29371,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -29388,7 +29760,7 @@
         "name": "Person CountryRegion",
         "lineageTag": "4cb98d08-c123-406e-8347-716f2b1805e2",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -29554,6 +29926,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -29931,7 +30315,7 @@
         "name": "Person EmailAddress",
         "lineageTag": "10874b0a-0888-4591-84ba-d4134a74f513",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -30183,6 +30567,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -30560,7 +30956,7 @@
         "name": "Person Person",
         "lineageTag": "478ad7ce-2f82-44d3-8d72-96db8bf0aa6f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -31283,6 +31679,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -31658,7 +32066,7 @@
         "name": "Person PersonPhone",
         "lineageTag": "b1f23613-5d8b-4986-9890-36b73d70532b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -31868,6 +32276,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -32245,7 +32665,7 @@
         "name": "Person PhoneNumberType",
         "lineageTag": "7e7c8507-b82d-4470-8f67-f1d9a756c968",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -32412,6 +32832,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -32789,7 +33221,7 @@
         "name": "Person Password",
         "lineageTag": "3c743139-5a4e-4e04-b80a-48cfd0406147",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -33040,6 +33472,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -33417,7 +33861,7 @@
         "name": "Person StateProvince",
         "lineageTag": "363c3f56-9838-4613-a8c8-78bbaf7cc5b1",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -33798,6 +34242,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -34173,7 +34629,7 @@
         "name": "Production Culture",
         "lineageTag": "e56116e0-231c-47d7-b6db-c4793468a4b3",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -34339,6 +34795,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -34716,7 +35184,7 @@
         "name": "Production BillOfMaterials",
         "lineageTag": "5fb8b13a-3fb3-4b3f-8d82-9696e375c704",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -35162,6 +35630,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -36237,7 +36717,7 @@
         "name": "Production Document",
         "lineageTag": "bff3b050-921a-4ced-b885-18cabbd4cb85",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -36830,6 +37310,18 @@
               "modifiedTime": "2023-03-03T09:40:12.177",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -37205,7 +37697,7 @@
         "name": "Production Illustration",
         "lineageTag": "d1cac7de-9d37-4cf1-957f-d56d577dde06",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -37372,6 +37864,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -37749,7 +38253,7 @@
         "name": "Production Location",
         "lineageTag": "08081bca-daff-4ced-ae17-fb2f2a7a6444",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -38001,6 +38505,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -38378,7 +38894,7 @@
         "name": "Production ProductCategory",
         "lineageTag": "e29e92bc-9584-4980-afc3-1705f8ac6d57",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -38587,6 +39103,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -38964,7 +39492,7 @@
         "name": "Production Product",
         "lineageTag": "a55a382f-9afa-4d32-bff6-dab5824fccd2",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -40100,6 +40628,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -41534,7 +42074,7 @@
         "name": "Production ProductCostHistory",
         "lineageTag": "6b8c4065-212e-42a7-bb8f-1c968963784c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -41810,6 +42350,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -42885,7 +43437,7 @@
         "name": "Production ProductDescription",
         "lineageTag": "21074c6d-9cf8-437e-a48a-538ed88bcedb",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -43094,6 +43646,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -43471,7 +44035,7 @@
         "name": "Production ProductDocument",
         "lineageTag": "80fb4f1a-bb62-4ebf-9dbc-3af069b74666",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -43638,6 +44202,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -44015,7 +44591,7 @@
         "name": "Production ProductInventory",
         "lineageTag": "3b9450b3-9311-444a-aaaa-d63016a20d41",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -44353,6 +44929,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -44730,7 +45318,7 @@
         "name": "Production ProductListPriceHistory",
         "lineageTag": "9333ab42-cd01-4f95-9367-7b8e541672fc",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -45006,6 +45594,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -46081,7 +46681,7 @@
         "name": "Production ProductModel",
         "lineageTag": "52e05bd9-5b44-4060-8bef-b2ac129cd8a5",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -46374,6 +46974,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -46751,7 +47363,7 @@
         "name": "Production ProductModelIllustration",
         "lineageTag": "9c558f45-5b6c-4378-889e-852143944c07",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -46919,6 +47531,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -47296,7 +47920,7 @@
         "name": "Production ProductModelProductDescriptionCulture",
         "lineageTag": "08365d09-b51a-4b41-bf92-e50234a95578",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -47506,6 +48130,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -47883,7 +48519,7 @@
         "name": "Production ProductPhoto",
         "lineageTag": "a15eeff0-19fc-496e-8ec1-51cd310204fd",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -48092,6 +48728,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.177",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -48469,7 +49117,7 @@
         "name": "Production ProductProductPhoto",
         "lineageTag": "de722afe-06e0-4721-bef4-5211ad947d36",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -48680,6 +49328,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -49057,7 +49717,7 @@
         "name": "Production ProductReview",
         "lineageTag": "dce6fc34-cc7b-44c3-b2d7-3464835a1bec",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -49448,6 +50108,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -50174,7 +50846,7 @@
         "name": "Production ProductSubcategory",
         "lineageTag": "0189d3bd-dac3-4d9d-8d0b-ca38c7ab8fea",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -50426,6 +51098,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -50803,7 +51487,7 @@
         "name": "Production ScrapReason",
         "lineageTag": "71221165-8bee-486d-b955-c8c2748fe233",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -50970,6 +51654,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -51347,7 +52043,7 @@
         "name": "Production TransactionHistory",
         "lineageTag": "b7bc8199-87ea-45c6-9913-c2ff854b9ab6",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -51783,6 +52479,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -52509,7 +53217,7 @@
         "name": "Production TransactionHistoryArchive",
         "lineageTag": "0054d23a-772b-4a57-b26c-5e95bd3f5f4b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -52945,6 +53653,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -53671,7 +54391,7 @@
         "name": "Production UnitMeasure",
         "lineageTag": "193f3a69-c0bf-4445-947d-44eaf306360d",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -53837,6 +54557,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -54214,7 +54946,7 @@
         "name": "Production WorkOrder",
         "lineageTag": "aef707b0-b4fe-4428-ad19-713352ba462a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -54716,6 +55448,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -56140,7 +56884,7 @@
         "name": "Production WorkOrderRouting",
         "lineageTag": "0bd77da5-de19-492d-99bf-8506a12ea806",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -56738,6 +57482,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -58511,7 +59267,7 @@
         "name": "Purchasing ProductVendor",
         "lineageTag": "d0572bf9-ea89-462a-b07f-7bcee40d8389",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -59033,6 +59789,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -59759,7 +60527,7 @@
         "name": "Purchasing PurchaseOrderDetail",
         "lineageTag": "15b6609c-f1d9-48ab-ad0b-c3c85b48d405",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -60279,6 +61047,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -61005,7 +61785,7 @@
         "name": "Purchasing ShipMethod",
         "lineageTag": "ca50c96b-38e9-4a91-9e97-919d8516dcae",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -61300,6 +62080,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -61677,7 +62469,7 @@
         "name": "Purchasing PurchaseOrderHeader",
         "lineageTag": "5abdcb7d-4336-4868-a210-ebb41f4720d6",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -62297,6 +63089,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -63372,7 +64176,7 @@
         "name": "Purchasing Vendor",
         "lineageTag": "3e208ba6-2307-4102-b9ee-fea2a4e47665",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -63754,6 +64558,18 @@
               "modifiedTime": "2023-03-03T09:40:12.193",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -64129,7 +64945,7 @@
         "name": "Sales CountryRegionCurrency",
         "lineageTag": "857598ce-72bd-4ea3-ad36-c6441d958262",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -64295,6 +65111,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -64672,7 +65500,7 @@
         "name": "Sales CreditCard",
         "lineageTag": "178d3aa3-7b64-4bb4-9aa6-97bcfac93f33",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -64967,6 +65795,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -65344,7 +66184,7 @@
         "name": "Sales Currency",
         "lineageTag": "b935af10-fc23-44a4-a233-7b444d2eb36c",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -65510,6 +66350,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -65887,7 +66739,7 @@
         "name": "Sales CurrencyRate",
         "lineageTag": "c4575874-25fe-445c-b924-88398eb88297",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -66236,6 +67088,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -66962,7 +67826,7 @@
         "name": "Sales Customer",
         "lineageTag": "6a5e3f60-15bb-4f66-b953-5e58ab3478cd",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -67300,6 +68164,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -67677,7 +68553,7 @@
         "name": "Sales PersonCreditCard",
         "lineageTag": "90cb43bc-0e38-44ad-bcf4-5b64835da3da",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -67845,6 +68721,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -68227,7 +69115,7 @@
         "name": "Sales SalesOrderDetail",
         "lineageTag": "83dcbbf1-f786-4bcf-b917-73e838220ea1",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -68738,6 +69626,18 @@
               "modifiedTime": "2023-03-03T09:40:12.193",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -69118,7 +70018,7 @@
         "name": "Sales SalesOrderHeader",
         "lineageTag": "f88a58de-19d7-4b21-a9de-0463b662344b",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -70302,6 +71202,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -71731,7 +72643,7 @@
         "name": "Sales SalesOrderHeaderSalesReason",
         "lineageTag": "16c5f55a-584d-49d2-86d9-da3fab56ecaf",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -71899,6 +72811,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -72281,7 +73205,7 @@
         "name": "Sales SalesPerson",
         "lineageTag": "9750cfa2-4f43-4144-bedc-258f5607c6eb",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -72708,6 +73632,18 @@
               "modifiedTime": "2023-03-03T09:40:12.193",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -73088,7 +74024,7 @@
         "name": "Sales SalesPersonQuotaHistory",
         "lineageTag": "190d4f7b-76cc-4869-9bc2-cc65ff2be38e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -73352,6 +74288,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -74083,7 +75031,7 @@
         "name": "Sales SalesReason",
         "lineageTag": "a4b3de51-2965-4f5a-a956-c5bb7ab79271",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -74292,6 +75240,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -74674,7 +75634,7 @@
         "name": "Sales SalesTaxRate",
         "lineageTag": "97b722d6-92a9-42ca-afd4-b2f9d0f98f2a",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -75012,6 +75972,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -75394,7 +76366,7 @@
         "name": "Sales SalesTerritoryHistory",
         "lineageTag": "cd5320b0-9199-4524-8fe9-2f0d117ebbbc",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -75712,6 +76684,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -76792,7 +77776,7 @@
         "name": "Sales SalesTerritory",
         "lineageTag": "a088df3a-f8fa-4962-b884-4c52463b3244",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -77259,6 +78243,18 @@
               "modifiedTime": "2023-03-03T09:40:12.193",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
@@ -77639,7 +78635,7 @@
         "name": "Sales ShoppingCartItem",
         "lineageTag": "1f9aacc5-2ad8-4e55-87c3-57e0c7c24d0f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -77946,6 +78942,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -78677,7 +79685,7 @@
         "name": "Sales SpecialOffer",
         "lineageTag": "5ea7098e-e66c-4c0f-bd5e-b68871173560",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -79207,6 +80215,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -80287,7 +81307,7 @@
         "name": "Sales SpecialOfferProduct",
         "lineageTag": "be2922d1-e44f-4054-aca4-d1a7dd842e2e",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -80497,6 +81517,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
@@ -80879,7 +81911,7 @@
         "name": "Sales Store",
         "lineageTag": "2b909077-3ff7-43f4-86eb-4992664578c0",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:40:12.177",
+        "structureModifiedTime": "2023-03-03T09:45:44.54",
         "columns": [
           {
             "type": "rowNumber",
@@ -81173,6 +82205,18 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T09:40:12.193",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "name": "TestColumn13",
+            "dataType": "string",
+            "formatString": "General",
+            "modifiedTime": "2023-03-03T09:45:44.54",
+            "structureModifiedTime": "2023-03-03T09:45:44.54",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T09:45:44.54",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
