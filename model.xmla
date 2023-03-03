@@ -25277,7 +25277,7 @@
         "name": "Person Address",
         "lineageTag": "8ae99522-c2b8-413f-b17b-8e760c0e08fd",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T08:59:13.883",
+        "structureModifiedTime": "2023-03-03T08:59:24.193",
         "columns": [
           {
             "type": "rowNumber",
@@ -25701,6 +25701,22 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T08:59:13.883",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "type": "calculated",
+            "name": "Country",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "expression": "'Person Address'[City]",
+            "formatString": "string",
+            "state": "calculationNeeded",
+            "modifiedTime": "2023-03-03T08:59:25.053",
+            "structureModifiedTime": "2023-03-03T08:59:24.193",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "modifiedTime": "2023-03-03T08:59:24.193",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
