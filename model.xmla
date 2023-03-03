@@ -39492,7 +39492,7 @@
         "name": "Production Product",
         "lineageTag": "a55a382f-9afa-4d32-bff6-dab5824fccd2",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T09:45:44.54",
+        "structureModifiedTime": "2023-03-03T10:13:37.64",
         "columns": [
           {
             "type": "rowNumber",
@@ -40665,6 +40665,14 @@
             "dataType": "int64",
             "modifiedTime": "2023-03-03T09:40:06.57",
             "structureModifiedTime": "2023-03-03T09:40:05.71"
+          },
+          {
+            "name": "NumProducts",
+            "expression": "DISTINCTCOUNT ('Production Product'[ProductID])",
+            "formatString": "string",
+            "dataType": "int64",
+            "modifiedTime": "2023-03-03T10:13:38.453",
+            "structureModifiedTime": "2023-03-03T10:13:37.64"
           }
         ],
         "annotations": [
