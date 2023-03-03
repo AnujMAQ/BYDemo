@@ -25705,6 +25705,12 @@
             "dataType": "unknown",
             "isDataTypeInferred": true,
             "formatString": "string"
+          },
+          {
+            "name": "Continent",
+            "dataType": "unknown",
+            "isDataTypeInferred": true,
+            "formatString": "string"
           }
         ],
         "partitions": [
