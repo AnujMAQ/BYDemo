@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T16:08:34.907+05:30",
+  "lastUpdate": "2023-03-03T16:40:34.38+05:30",
   "lastSchemaUpdate": "2023-03-03T09:29:14.27+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -43909,6 +43909,14 @@
               "modifiedTime": "2023-03-03T10:33:15.74",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "type": "calculated",
+            "name": "Full Name",
+            "dataType": "unknown",
+            "isDataTypeInferred": true,
+            "expression": "CONCATENATE('Production Product'[ProductID],'Production Product'[Name])",
+            "formatString": "General"
           }
         ],
         "partitions": [
@@ -43926,7 +43934,7 @@
         ],
         "measures": [
           {
-            "name": "NumOfProductsIDs",
+            "name": "NumOfProducts",
             "expression": "DISTINCTCOUNT ('Production Product'[ProductID])",
             "formatString": "string",
             "dataType": "int64",
