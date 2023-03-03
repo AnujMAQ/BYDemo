@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T12:50:31.337+05:30",
+  "lastUpdate": "2023-03-03T12:26:52.903+05:30",
   "lastSchemaUpdate": "2023-03-03T09:29:14.27+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -25687,13 +25687,6 @@
                 "modifiedTime": "2023-03-03T04:23:20.127"
               }
             ]
-          },
-          {
-            "name": "City-updated",
-            "dataType": "unknown",
-            "isDataTypeInferred": true,
-            "isHidden": true,
-            "formatString": "string"
           }
         ],
         "partitions": [
@@ -30091,7 +30084,7 @@
         "name": "Person Person",
         "lineageTag": "478ad7ce-2f82-44d3-8d72-96db8bf0aa6f",
         "modifiedTime": "2023-03-03T04:23:20.077",
-        "structureModifiedTime": "2023-03-03T07:20:29.68",
+        "structureModifiedTime": "2023-03-03T07:20:40.743",
         "columns": [
           {
             "type": "rowNumber",
@@ -30680,18 +30673,6 @@
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "modifiedTime": "2023-03-03T05:38:21.93",
-              "refreshedTime": "1699-12-31T00:00:00"
-            }
-          },
-          {
-            "name": "TestColumn9",
-            "dataType": "string",
-            "formatString": "General",
-            "modifiedTime": "2023-03-03T06:56:42.107",
-            "structureModifiedTime": "2023-03-03T06:56:42.107",
-            "refreshedTime": "1699-12-31T00:00:00",
-            "attributeHierarchy": {
-              "modifiedTime": "2023-03-03T06:56:42.107",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           },
