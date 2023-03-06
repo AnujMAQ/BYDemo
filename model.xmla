@@ -7,7 +7,7 @@
   "id": "f475cd3f-fce4-42af-8e2f-af0f3f62c21c",
   "compatibilityLevel": 1550,
   "createdTimestamp": "2023-03-03T09:29:14.27+05:30",
-  "lastUpdate": "2023-03-03T17:05:43.52+05:30",
+  "lastUpdate": "2023-03-06T11:37:20.763+05:30",
   "lastSchemaUpdate": "2023-03-03T17:05:39.863+05:30",
   "lastProcessed": "2023-03-03T09:53:32.97+05:30",
   "model": {
@@ -19975,10 +19975,6 @@
               "modifiedTime": "2023-03-03T10:33:15.723",
               "refreshedTime": "1699-12-31T00:00:00"
             }
-          },
-          {
-            "name": "NewLogs1",
-            "dataType": "string"
           }
         ],
         "partitions": [
@@ -34170,6 +34166,11 @@
               "modifiedTime": "2023-03-03T10:33:15.723",
               "refreshedTime": "1699-12-31T00:00:00"
             }
+          },
+          {
+            "name": "TestColumn01",
+            "dataType": "string",
+            "formatString": "General"
           }
         ],
         "partitions": [
