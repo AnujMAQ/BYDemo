@@ -7,7 +7,7 @@
   "id": "280d9be6-976e-4ce1-9196-fe52bdd3516a",
   "compatibilityLevel": 1561,
   "createdTimestamp": "2021-02-13T04:30:58.41+05:30",
-  "lastUpdate": "2023-03-15T15:34:59.667+05:30",
+  "lastUpdate": "2023-03-15T15:38:28.257+05:30",
   "lastSchemaUpdate": "2022-09-14T02:32:37.603+05:30",
   "lastProcessed": "2023-03-15T15:34:59.607+05:30",
   "model": {
@@ -25,7 +25,7 @@
         "name": "Table",
         "lineageTag": "05f6a69e-04de-4baf-8b0f-d32cb06069a2",
         "modifiedTime": "2023-03-15T10:04:51.697",
-        "structureModifiedTime": "2023-03-15T10:08:28.177",
+        "structureModifiedTime": "2023-03-15T10:09:46.637",
         "columns": [
           {
             "type": "rowNumber",
@@ -102,6 +102,23 @@
             "attributeHierarchy": {
               "state": "dependencyError",
               "modifiedTime": "2023-03-15T10:08:28.19",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
+          },
+          {
+            "type": "calculated",
+            "name": "FullName1",
+            "dataType": "unknown",
+            "isDataTypeInferred": true,
+            "expression": "Table[FirstName]&&\" \"&&Table[LastName]",
+            "state": "semanticError",
+            "modifiedTime": "2023-03-15T10:09:46.653",
+            "structureModifiedTime": "2023-03-15T10:09:46.637",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "errorMessage": "The syntax for 'Table' is incorrect. (DAX(\nTable[FirstName]&&\" \"&&Table[LastName]\n)).",
+            "attributeHierarchy": {
+              "state": "dependencyError",
+              "modifiedTime": "2023-03-15T10:09:46.653",
               "refreshedTime": "1699-12-31T00:00:00"
             }
           }
