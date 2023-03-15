@@ -1,15 +1,15 @@
 {
  "createOrReplace": {
  "object": {
- "database": "Users"}, 
+ "database": "Table"}, 
  "database": {
-  "name": "Users",
-  "id": "eb30e2ee-b0e7-4157-9ec4-4d9f11d38bf9",
+  "name": "Table",
+  "id": "280d9be6-976e-4ce1-9196-fe52bdd3516a",
   "compatibilityLevel": 1561,
   "createdTimestamp": "2021-02-13T04:30:58.41+05:30",
-  "lastUpdate": "2023-03-14T14:13:36.003+05:30",
+  "lastUpdate": "2023-03-15T15:34:59.667+05:30",
   "lastSchemaUpdate": "2022-09-14T02:32:37.603+05:30",
-  "lastProcessed": "2023-03-14T14:13:35.953+05:30",
+  "lastProcessed": "2023-03-15T15:34:59.607+05:30",
   "model": {
     "culture": "en-US",
     "dataAccessOptions": {
@@ -18,14 +18,14 @@
     },
     "defaultPowerBIDataSourceVersion": "powerBI_V3",
     "sourceQueryCulture": "en-US",
-    "modifiedTime": "2023-03-14T08:43:27.983",
-    "structureModifiedTime": "2023-03-14T08:43:27.983",
+    "modifiedTime": "2023-03-15T10:04:51.653",
+    "structureModifiedTime": "2023-03-15T10:04:51.653",
     "tables": [
       {
-        "name": "Users",
-        "lineageTag": "f4a36c4f-f1cc-40cf-a99e-ed162907a036",
-        "modifiedTime": "2023-03-14T08:43:28.03",
-        "structureModifiedTime": "2023-03-14T08:43:28.03",
+        "name": "Table",
+        "lineageTag": "05f6a69e-04de-4baf-8b0f-d32cb06069a2",
+        "modifiedTime": "2023-03-15T10:04:51.697",
+        "structureModifiedTime": "2023-03-15T10:08:28.177",
         "columns": [
           {
             "type": "rowNumber",
@@ -35,34 +35,34 @@
             "isUnique": true,
             "isKey": true,
             "isNullable": false,
-            "modifiedTime": "2023-03-14T08:43:27.983",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
+            "modifiedTime": "2023-03-15T10:04:51.653",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.123",
-              "refreshedTime": "2023-03-14T08:43:35.953"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:59.607"
             }
           },
           {
             "name": "FirstName",
             "dataType": "string",
             "sourceColumn": "FirstName",
-            "lineageTag": "2b77dea3-0b14-46da-be0c-cd998ffcee22",
+            "lineageTag": "7f3a74e4-0f4a-4ff7-a0ae-c547eb6fa118",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.03",
-            "structureModifiedTime": "2023-03-14T08:43:28.03",
+            "modifiedTime": "2023-03-15T10:04:51.697",
+            "structureModifiedTime": "2023-03-15T10:04:51.697",
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.123",
-              "refreshedTime": "2023-03-14T08:43:35.953"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:59.607"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic",
-                "modifiedTime": "2023-03-14T08:43:28.03"
+                "modifiedTime": "2023-03-15T10:04:51.697"
               }
             ]
           },
@@ -70,21 +70,21 @@
             "name": "LastName",
             "dataType": "string",
             "sourceColumn": "LastName",
-            "lineageTag": "0cb4781e-edb5-49a4-bf90-c329df2e595d",
+            "lineageTag": "d3ebe8f0-14c9-4c3d-8002-8d0266e7780d",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.03",
-            "structureModifiedTime": "2023-03-14T08:43:28.03",
+            "modifiedTime": "2023-03-15T10:04:51.697",
+            "structureModifiedTime": "2023-03-15T10:04:51.697",
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.123",
-              "refreshedTime": "2023-03-14T08:43:35.953"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:59.607"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic",
-                "modifiedTime": "2023-03-14T08:43:28.03"
+                "modifiedTime": "2023-03-15T10:04:51.697"
               }
             ]
           },
@@ -93,19 +93,29 @@
             "name": "FullName",
             "dataType": "unknown",
             "isDataTypeInferred": true,
-            "expression": "CONCATENATE(Users[FirstName],Users[LastName])"
+            "expression": "Table[FirstName]&&\" \"&&Table[LastName]",
+            "state": "semanticError",
+            "modifiedTime": "2023-03-15T10:08:28.19",
+            "structureModifiedTime": "2023-03-15T10:08:28.177",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "errorMessage": "The syntax for 'Table' is incorrect. (DAX(\nTable[FirstName]&&\" \"&&Table[LastName]\n)).",
+            "attributeHierarchy": {
+              "state": "dependencyError",
+              "modifiedTime": "2023-03-15T10:08:28.19",
+              "refreshedTime": "1699-12-31T00:00:00"
+            }
           }
         ],
         "partitions": [
           {
-            "name": "Users-dbd83a0f-30f6-436c-a895-d99f8d316230",
+            "name": "Table-e7abba71-e83b-4b5d-bd9e-3deeab6b6c85",
             "mode": "import",
             "state": "ready",
-            "modifiedTime": "2023-03-14T08:43:35.953",
-            "refreshedTime": "2023-03-14T08:43:35.953",
+            "modifiedTime": "2023-03-15T10:04:59.607",
+            "refreshedTime": "2023-03-15T10:04:59.607",
             "source": {
               "type": "m",
-              "expression": "let\n  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WcswrzVLSUQotSEzJqEysTFSK1YlWCgYyc4Gi3onFJaVFmWCxkMS8xEqgmFdiZh5YwDkjMy83sVIBKOaRWFKSWp5YpBQbCwA=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [FirstName = _t, LastName = _t]),\n  #\"Changed column type\" = Table.TransformColumnTypes(Source, {})\nin\n  #\"Changed column type\"\n"
+              "expression": "let\n  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WcswrzVLSUQotSEzJqEysTFSK1YlWCknMS6wEinolZuaBBYKBcrkKQBHvxOKS0qJMsKBzRmZeLlidR2JJSWp5YpFSbCwA\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [FirstName = _t, LastName = _t]),\n  #\"Changed column type\" = Table.TransformColumnTypes(Source, {})\nin\n  #\"Changed column type\"\n"
             }
           }
         ],
@@ -113,17 +123,17 @@
           {
             "name": "PBI_ResultType",
             "value": "Table",
-            "modifiedTime": "2023-03-14T08:43:28.03"
+            "modifiedTime": "2023-03-15T10:04:51.697"
           }
         ]
       },
       {
-        "name": "DateTableTemplate_3ed62086-4927-44c9-a15f-fe4051c43b7e",
+        "name": "DateTableTemplate_8a73e1a8-3d1e-405a-aef8-820ada62c3a3",
         "isHidden": true,
         "isPrivate": true,
-        "lineageTag": "3bb62f6a-f9bd-44b5-997f-757baa0e1cf6",
-        "modifiedTime": "2023-03-14T08:43:28.03",
-        "structureModifiedTime": "2023-03-14T08:43:27.983",
+        "lineageTag": "44fefaaa-f563-4bfa-83df-838d8af361af",
+        "modifiedTime": "2023-03-15T10:04:51.697",
+        "structureModifiedTime": "2023-03-15T10:04:51.653",
         "columns": [
           {
             "type": "rowNumber",
@@ -133,13 +143,13 @@
             "isUnique": true,
             "isKey": true,
             "isNullable": false,
-            "modifiedTime": "2023-03-14T08:43:27.983",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
+            "modifiedTime": "2023-03-15T10:04:51.653",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.14",
-              "refreshedTime": "2023-03-14T08:43:28.14"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:51.793"
             }
           },
           {
@@ -151,22 +161,22 @@
             "isHidden": true,
             "sourceColumn": "[Date]",
             "formatString": "General Date",
-            "lineageTag": "f7069a2d-4efb-4ecf-9efd-637c6285d7e0",
+            "lineageTag": "5eaeb943-4221-45de-82e0-204e542e2d3c",
             "dataCategory": "PaddedDateTableDates",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.14",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
+            "modifiedTime": "2023-03-15T10:04:51.793",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
             "refreshedTime": "1699-12-31T00:00:00",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.14",
-              "refreshedTime": "2023-03-14T08:43:28.14"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:51.793"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           },
@@ -178,27 +188,27 @@
             "isHidden": true,
             "expression": "YEAR([Date])",
             "formatString": "0",
-            "lineageTag": "c5192b6c-4eea-4a49-815d-48c51aaaa1de",
+            "lineageTag": "5b761afa-94e2-41f5-a7b4-f9475a5f0117",
             "dataCategory": "Years",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.14",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
-            "refreshedTime": "2023-03-14T08:43:28.14",
+            "modifiedTime": "2023-03-15T10:04:51.793",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
+            "refreshedTime": "2023-03-15T10:04:51.793",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.14",
-              "refreshedTime": "2023-03-14T08:43:28.14"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:51.793"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               },
               {
                 "name": "TemplateId",
                 "value": "Year",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           },
@@ -210,27 +220,27 @@
             "isHidden": true,
             "expression": "MONTH([Date])",
             "formatString": "0",
-            "lineageTag": "fbc6752d-1a4f-4ef6-9bf9-7c3386900dc7",
+            "lineageTag": "6a4431cc-09ae-46eb-943b-03e8caecf7f8",
             "dataCategory": "MonthOfYear",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.14",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
-            "refreshedTime": "2023-03-14T08:43:28.14",
+            "modifiedTime": "2023-03-15T10:04:51.793",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
+            "refreshedTime": "2023-03-15T10:04:51.793",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.14",
-              "refreshedTime": "2023-03-14T08:43:28.14"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:51.793"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               },
               {
                 "name": "TemplateId",
                 "value": "MonthNumber",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           },
@@ -242,27 +252,27 @@
             "isHidden": true,
             "expression": "FORMAT([Date], \"MMMM\")",
             "sortByColumn": "MonthNo",
-            "lineageTag": "e93eb95c-3196-4112-bfe0-e7964381f35d",
+            "lineageTag": "23c8f922-5248-4810-8133-a29fa878f052",
             "dataCategory": "Months",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.14",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
-            "refreshedTime": "2023-03-14T08:43:28.14",
+            "modifiedTime": "2023-03-15T10:04:51.793",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
+            "refreshedTime": "2023-03-15T10:04:51.793",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.14",
-              "refreshedTime": "2023-03-14T08:43:28.14"
+              "modifiedTime": "2023-03-15T10:04:51.807",
+              "refreshedTime": "2023-03-15T10:04:51.807"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               },
               {
                 "name": "TemplateId",
                 "value": "Month",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           },
@@ -274,27 +284,27 @@
             "isHidden": true,
             "expression": "INT(([MonthNo] + 2) / 3)",
             "formatString": "0",
-            "lineageTag": "b0314d5e-2953-4938-83bb-095680c55f40",
+            "lineageTag": "f33b522a-f845-4ba4-a1a8-58d8c9b749ae",
             "dataCategory": "QuarterOfYear",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.14",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
-            "refreshedTime": "2023-03-14T08:43:28.14",
+            "modifiedTime": "2023-03-15T10:04:51.807",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
+            "refreshedTime": "2023-03-15T10:04:51.807",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.14",
-              "refreshedTime": "2023-03-14T08:43:28.14"
+              "modifiedTime": "2023-03-15T10:04:51.807",
+              "refreshedTime": "2023-03-15T10:04:51.807"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               },
               {
                 "name": "TemplateId",
                 "value": "QuarterNumber",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           },
@@ -306,27 +316,27 @@
             "isHidden": true,
             "expression": "\"Qtr \" & [QuarterNo]",
             "sortByColumn": "QuarterNo",
-            "lineageTag": "cf7a0e0b-e911-4bc0-a970-54a3909d7784",
+            "lineageTag": "06e2e859-7fb6-4263-935a-1ebf63240eb3",
             "dataCategory": "Quarters",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.153",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
-            "refreshedTime": "2023-03-14T08:43:28.153",
+            "modifiedTime": "2023-03-15T10:04:51.807",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
+            "refreshedTime": "2023-03-15T10:04:51.807",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.153",
-              "refreshedTime": "2023-03-14T08:43:28.153"
+              "modifiedTime": "2023-03-15T10:04:51.807",
+              "refreshedTime": "2023-03-15T10:04:51.807"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               },
               {
                 "name": "TemplateId",
                 "value": "Quarter",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           },
@@ -338,38 +348,38 @@
             "isHidden": true,
             "expression": "DAY([Date])",
             "formatString": "0",
-            "lineageTag": "21112a23-7212-48c4-be50-d7aaf33aa37e",
+            "lineageTag": "e623ccc2-f8d4-465a-b925-1137a752bbdf",
             "dataCategory": "DayOfMonth",
             "summarizeBy": "none",
-            "modifiedTime": "2023-03-14T08:43:28.14",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
-            "refreshedTime": "2023-03-14T08:43:28.14",
+            "modifiedTime": "2023-03-15T10:04:51.793",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
+            "refreshedTime": "2023-03-15T10:04:51.793",
             "attributeHierarchy": {
               "state": "ready",
-              "modifiedTime": "2023-03-14T08:43:28.14",
-              "refreshedTime": "2023-03-14T08:43:28.14"
+              "modifiedTime": "2023-03-15T10:04:51.793",
+              "refreshedTime": "2023-03-15T10:04:51.793"
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               },
               {
                 "name": "TemplateId",
                 "value": "Day",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           }
         ],
         "partitions": [
           {
-            "name": "DateTableTemplate_3ed62086-4927-44c9-a15f-fe4051c43b7e-7b122b28-008c-4d6b-bdf1-d65d2fbedfb1",
+            "name": "DateTableTemplate_8a73e1a8-3d1e-405a-aef8-820ada62c3a3-ec9cc043-a1b0-40d5-8bcb-7c82c7f7c8c1",
             "mode": "import",
             "state": "ready",
-            "modifiedTime": "2023-03-14T08:43:28.14",
-            "refreshedTime": "2023-03-14T08:43:28.14",
+            "modifiedTime": "2023-03-15T10:04:51.793",
+            "refreshedTime": "2023-03-15T10:04:51.793",
             "source": {
               "type": "calculated",
               "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))"
@@ -379,46 +389,46 @@
         "hierarchies": [
           {
             "name": "Date Hierarchy",
-            "lineageTag": "d68bf54e-d977-4288-a63b-04ff67e4f989",
+            "lineageTag": "7f2b4d62-4651-44d7-a633-a7dff39ad1e2",
             "state": "ready",
-            "modifiedTime": "2023-03-14T08:43:28.153",
-            "structureModifiedTime": "2023-03-14T08:43:27.983",
-            "refreshedTime": "2023-03-14T08:43:28.153",
+            "modifiedTime": "2023-03-15T10:04:51.807",
+            "structureModifiedTime": "2023-03-15T10:04:51.653",
+            "refreshedTime": "2023-03-15T10:04:51.807",
             "levels": [
               {
                 "name": "Year",
                 "ordinal": 0,
                 "column": "Year",
-                "lineageTag": "313d9b16-5397-43b7-8695-b1d90de12787",
-                "modifiedTime": "2023-03-14T08:43:28.03"
+                "lineageTag": "00932ae8-91e6-4ef8-9eef-1d377cde0fd4",
+                "modifiedTime": "2023-03-15T10:04:51.697"
               },
               {
                 "name": "Quarter",
                 "ordinal": 1,
                 "column": "Quarter",
-                "lineageTag": "13b7f463-ccc7-400a-ae45-394663a6ff7f",
-                "modifiedTime": "2023-03-14T08:43:28.03"
+                "lineageTag": "9084c0ac-a2a4-4ed2-9dcf-9d57b2cd38a6",
+                "modifiedTime": "2023-03-15T10:04:51.697"
               },
               {
                 "name": "Month",
                 "ordinal": 2,
                 "column": "Month",
-                "lineageTag": "22770347-c5a3-4ab9-b5a2-f49aca0b0850",
-                "modifiedTime": "2023-03-14T08:43:28.03"
+                "lineageTag": "f90f79a7-02d6-4a52-97f7-6d4ddd9d2c0c",
+                "modifiedTime": "2023-03-15T10:04:51.697"
               },
               {
                 "name": "Day",
                 "ordinal": 3,
                 "column": "Day",
-                "lineageTag": "927cfc08-d69d-461b-9945-7da8abee5656",
-                "modifiedTime": "2023-03-14T08:43:28.03"
+                "lineageTag": "d43fe2b7-bb08-42cd-8ace-5031dbde4ad5",
+                "modifiedTime": "2023-03-15T10:04:51.697"
               }
             ],
             "annotations": [
               {
                 "name": "TemplateId",
                 "value": "DateHierarchy",
-                "modifiedTime": "2023-03-14T08:43:27.983"
+                "modifiedTime": "2023-03-15T10:04:51.653"
               }
             ]
           }
@@ -427,12 +437,12 @@
           {
             "name": "__PBI_TemplateDateTable",
             "value": "true",
-            "modifiedTime": "2023-03-14T08:43:27.983"
+            "modifiedTime": "2023-03-15T10:04:51.653"
           },
           {
             "name": "DefaultItem",
             "value": "DateHierarchy",
-            "modifiedTime": "2023-03-14T08:43:27.983"
+            "modifiedTime": "2023-03-15T10:04:51.653"
           }
         ]
       }
@@ -440,18 +450,18 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"Users\"]",
-        "modifiedTime": "2023-03-14T08:43:27.983"
+        "value": "[\"Table\"]",
+        "modifiedTime": "2023-03-15T10:04:51.653"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
         "value": "1",
-        "modifiedTime": "2023-03-14T08:43:27.983"
+        "modifiedTime": "2023-03-15T10:04:51.653"
       },
       {
         "name": "PBIDesktopVersion",
         "value": "2.116.6874.5",
-        "modifiedTime": "2023-03-14T08:43:28.03"
+        "modifiedTime": "2023-03-15T10:04:51.697"
       }
     ]
   }
